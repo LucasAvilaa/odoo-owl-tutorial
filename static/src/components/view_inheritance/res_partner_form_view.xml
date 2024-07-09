@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<template>
+
+    <t t-name="treinamento_front.ResPartnerFormView" t-inherit="web.FormView" owl="1">
+        <xpath expr="//button[hasclass('o_form_button_create')]" position="after">
+            <button class="btn btn-primary" t-on-click="()=>this.openWebsite(model.root.data.website)">Go to Website</button>
+        </xpath>
+    </t>
+
+</template>

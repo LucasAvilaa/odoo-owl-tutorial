@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<template>
+
+    <t t-name="treinamento_front.ResPartnerListView.Buttons" t-inherit="web.ListView.Buttons" owl="1">
+        <xpath expr="//t[contains(@t-if, 'isExportEnable')]" position="before">
+            <button class="btn btn-primary ms-2" t-on-click="openSalesView" >View Sale Order</button>
+            <button class="btn btn-secondary border ms-2">View Invoices</button>
+            <button class="btn btn-success ms-2">View Meeting</button>
+        </xpath>
+    </t>
+
+</template>
