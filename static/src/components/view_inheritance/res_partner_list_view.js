@@ -29,7 +29,7 @@ export const resPartnerListView = {
     display_name: "LUCAS",
     icon: "oi oi-view-list",
     accessKey: "x",
-    buttonTemplate: "treinamento_front.ResPartnerListView.Buttons",
+    buttonTemplate: "odoo-owl-tutorial.ResPartnerListView.Buttons",
     Controller: ResPartnerListController,
 };
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templates xml:space="preserve">
 
-    <t t-name="treinamento_front.TodoList" owl="1">
+    <t t-name="odoo-owl-tutorial.TodoList" owl="1">
         <div class="todo-list-container">
             <div class="row mx-2 mt-2">
                 <div class="col-lg-6">

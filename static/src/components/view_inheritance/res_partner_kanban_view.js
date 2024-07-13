@@ -41,12 +41,12 @@ class ResPartnerKanbanController extends KanbanController {
     }
 }
 
-ResPartnerKanbanController.template = "treinamento_front.ResPartnerKanbanView"
+ResPartnerKanbanController.template = "odoo-owl-tutorial.ResPartnerKanbanView"
 
 export const resPartnerKanbanView = {
     ...kanbanView,
     display_name: "KanLUCAS",
-    buttonTemplate: "treinamento_front.ResPartnerKanbanView.Buttons",
+    buttonTemplate: "odoo-owl-tutorial.ResPartnerKanbanView.Buttons",
     Controller: ResPartnerKanbanController,
 };
 

@@ -14,9 +14,9 @@
     ],
     "assets": {
         "web.assets_backend": [
-            "treinamento_front/static/src/components/*/*.js",
-            "treinamento_front/static/src/components/*/*.xml",
-            "treinamento_front/static/src/components/*/*.scss",
+            "odoo-owl-tutorial/static/src/components/*/*.js",
+            "odoo-owl-tutorial/static/src/components/*/*.xml",
+            "odoo-owl-tutorial/static/src/components/*/*.scss",
         ]
     },
     "installable": True,

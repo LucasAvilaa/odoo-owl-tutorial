@@ -2,7 +2,7 @@
 
 <template>
 
-    <t t-name="treinamento_front.ResPartnerFormView" t-inherit="web.FormView" owl="1">
+    <t t-name="odoo-owl-tutorial.ResPartnerFormView" t-inherit="web.FormView" owl="1">
         <xpath expr="//button[hasclass('o_form_button_create')]" position="after">
             <button class="btn btn-primary" t-on-click="()=>this.openWebsite(model.root.data.website)">Go to Website</button>
         </xpath>

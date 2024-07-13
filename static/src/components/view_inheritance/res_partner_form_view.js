@@ -20,11 +20,11 @@ class ResPartnerFormController extends FormController {
     }
 }
 
-ResPartnerFormController.template = "treinamento_front.ResPartnerFormView"
+ResPartnerFormController.template = "odoo-owl-tutorial.ResPartnerFormView"
 
 export const resPartnerFormView = {
     ...formView,
-    buttonTemplate: "treinamento_front.ResPartnerFormView.Buttons",
+    buttonTemplate: "odoo-owl-tutorial.ResPartnerFormView.Buttons",
     Controller: ResPartnerFormController,
 };
 

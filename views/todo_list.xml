@@ -37,7 +37,7 @@
 
     <record id="todo_list_action_js" model="ir.actions.client">
         <field name="name">Todo List OWL</field>
-        <field name="tag">treinamento_front.todo_list_action_js</field>
+        <field name="tag">odoo-owl-tutorial.todo_list_action_js</field>
     </record>
 
     <menuitem id="owl_todo_list_menu_root" name="OWL Tutorial">

@@ -16,7 +16,7 @@ export class RangeField extends Component {
     }
 }
 
-RangeField.template = "treinamento_front.RangeField";
+RangeField.template = "odoo-owl-tutorial.RangeField";
 RangeField.props = {
     ...standardFieldProps,
 };

@@ -16,6 +16,6 @@ class ValidEmailField extends EmailField {
 }
 
 ValidEmailField.supportedTypes = ["char"];
-ValidEmailField.template = "treinamento_front.ValidEmailField"
+ValidEmailField.template = "odoo-owl-tutorial.ValidEmailField"
 
 registry.category("fields").add("valid_email", ValidEmailField);

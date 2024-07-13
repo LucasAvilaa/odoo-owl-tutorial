@@ -14,7 +14,7 @@ class UsernameField extends CharField {
         return email ? email.split("@")[1] : ""
     }
 }
-UsernameField.template = "treinamento_front.UsernameField"
+UsernameField.template = "odoo-owl-tutorial.UsernameField"
 UsernameField.supportedTypes = ["char"];
 UsernameField.components = {CharField}
 

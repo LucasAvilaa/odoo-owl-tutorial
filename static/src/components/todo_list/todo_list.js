@@ -80,5 +80,5 @@ export class OwlTodoList extends Component {
     }
 }
 
-OwlTodoList.template = "treinamento_front.TodoList";
-registry.category("actions").add("treinamento_front.todo_list_action_js", OwlTodoList);
+OwlTodoList.template = "odoo-owl-tutorial.TodoList";
+registry.category("actions").add("odoo-owl-tutorial.todo_list_action_js", OwlTodoList);

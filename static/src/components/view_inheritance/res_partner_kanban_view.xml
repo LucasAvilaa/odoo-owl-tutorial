@@ -2,7 +2,7 @@
 
 <template>
 
-    <t t-name="treinamento_front.ResPartnerKanbanView.Buttons" t-inherit="web.KanbanView.Buttons" owl="1">
+    <t t-name="odoo-owl-tutorial.ResPartnerKanbanView.Buttons" t-inherit="web.KanbanView.Buttons" owl="1">
         <xpath expr="//t[contains(@t-if, 'canCreate')]" position="after">
             <button class="btn btn-primary ms-2" t-on-click="openSalesView">View Sale Order</button>
             <button class="btn btn-secondary border ms-2">View Invoices</button>
@@ -10,7 +10,7 @@
         </xpath>
     </t>
 
-    <t t-name="treinamento_front.ResPartnerKanbanView" t-inherit="web.KanbanView" owl="1">
+    <t t-name="odoo-owl-tutorial.ResPartnerKanbanView" t-inherit="web.KanbanView" owl="1">
         <xpath expr="//t[contains(@t-component, 'props.Renderer')]" position="before">
             <div class="p-3 bg-white o_res_partner_kanban_view_sidebar">
                 <h2>Costumer Locations</h2>

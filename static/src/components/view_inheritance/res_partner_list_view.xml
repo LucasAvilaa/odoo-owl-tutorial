@@ -2,7 +2,7 @@
 
 <template>
 
-    <t t-name="treinamento_front.ResPartnerListView.Buttons" t-inherit="web.ListView.Buttons" owl="1">
+    <t t-name="odoo-owl-tutorial.ResPartnerListView.Buttons" t-inherit="web.ListView.Buttons" owl="1">
         <xpath expr="//t[contains(@t-if, 'isExportEnable')]" position="before">
             <button class="btn btn-primary ms-2" t-on-click="openSalesView" >View Sale Order</button>
             <button class="btn btn-secondary border ms-2">View Invoices</button>
